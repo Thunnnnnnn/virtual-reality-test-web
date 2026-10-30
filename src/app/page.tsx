@@ -1,8 +1,16 @@
+"use client";
+
 import Button from "@mui/material/Button";
+import { useEffect } from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
+import { getExample } from "@/services/exampleService";
 
 export default function Home() {
+  useEffect(() => {
+    getExample().then(console.log).catch(console.error);
+  }, []);
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
