@@ -1,8 +1,8 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## MUI
+## Ant Design
 
-This project uses [MUI](https://mui.com/) with Emotion and the Next.js 16 App Router cache provider. The shared theme and CSS baseline are configured in `src/app/providers.tsx`.
+This project uses [Ant Design](https://ant.design/) with `@ant-design/nextjs-registry` for the Next.js App Router. The shared provider is configured in `src/app/providers.tsx`.
 
 ## Getting Started
 
